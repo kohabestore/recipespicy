@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/cyborg/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.0/lity.min.css" integrity="sha256-kgOoigZTP1lSBr7QDdEQ4mcwFAi0pvmCcvfcnRYHicc=" crossorigin="anonymous" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<style>
+		pre{background:#f7f7f9}@media (min-width:768px){body>.navbar-transparent,body>.navbar-transparent .navbar-nav>.open>a{box-shadow:none}}#help,#home{font-size:.9rem}#help .navbar,#home .navbar{background:#349aed;background:linear-gradient(145deg,#349aed 50%,#34d8ed 100%);transition:box-shadow .2s ease-in}#help .navbar-transparent,#home .navbar-transparent{background:0 0!important;box-shadow:none}#help .navbar-brand .nav-link,#home .navbar-brand .nav-link{display:inline-block;margin-right:-30px}#help .navbar-brand img,#home .navbar-brand img{display:inline-block;margin:0 10px;width:30px}#help .nav-link,#home .nav-link{text-transform:uppercase;font-weight:500;color:#fff}#home{padding-top:0}#home .btn{padding:.6rem .55rem .5rem;box-shadow:none;font-size:.7rem;font-weight:500}.bs-docs-section{margin-top:4em}.bs-docs-section .page-header h1{padding:2rem 0;font-size:3rem}.dropdown-menu.show[aria-labelledby=themes]{display:flex;width:420px;flex-wrap:wrap}.dropdown-menu.show[aria-labelledby=themes] .dropdown-item{width:33.333%}.dropdown-menu.show[aria-labelledby=themes] .dropdown-item:first-child{width:100%}.bs-component{position:relative}.bs-component+.bs-component{margin-top:1rem}.bs-component .card{margin-bottom:1rem}.bs-component .modal{position:relative;top:auto;right:auto;left:auto;bottom:auto;z-index:1;display:block}.bs-component .modal-dialog{width:90%}.bs-component .popover{position:relative;display:inline-block;width:220px;margin:20px}.source-button{display:none;position:absolute;top:0;right:0;z-index:100;font-weight:700}.source-button:hover{cursor:pointer}.bs-component:hover .source-button{display:block}#source-modal pre{max-height:calc(100vh - 11rem);background-color:rgba(0,0,0,.7);color:rgba(255,255,255,.7)}.nav-tabs{margin-bottom:15px}.progress{margin-bottom:10px}#footer{margin:5em 0}#footer li{float:left;margin-right:1.5em;margin-bottom:1.5em}#footer p{clear:left;margin-bottom:0}.splash{padding:12em 0 6em;background:#349aed;background:linear-gradient(145deg,#349aed 50%,#34d8ed 100%);color:#fff;text-align:center}.splash .logo{width:160px}.splash h1{font-size:3em;color:#fff}.splash #social{margin:2em 0 3em}.splash .alert{margin:2em 0;border:none}.splash .sponsor a{color:#fff}.section-tout{padding:6em 0 1em;border-bottom:1px solid rgba(0,0,0,.05);background-color:#eaf1f1}.section-tout .fa{margin-right:.2em}.section-tout p{margin-bottom:5em}.section-preview{padding:4em 0}.section-preview .preview{margin-bottom:4em;background-color:#eaf1f1}.section-preview .preview img{max-width:100%}.section-preview .preview .image{position:relative}.section-preview .preview .image:before{box-shadow:inset 0 0 0 1px rgba(0,0,0,.1);position:absolute;top:0;left:0;width:100%;height:100%;content:"";pointer-events:none}.section-preview .preview .options{padding:2em;border:1px solid rgba(0,0,0,.05);border-top:none;text-align:center}.section-preview .preview .options p{margin-bottom:2em}.section-preview .dropdown-menu{text-align:left}.section-preview .lead{margin-bottom:2em}.sponsor img{max-width:100%}.sponsor #carbonads{max-width:240px;margin:0 auto}.sponsor .carbon-text{display:block;margin-top:1em;font-size:12px}.sponsor .carbon-poweredby{float:right;margin-top:1em;font-size:10px}@media (max-width:767px){.section-preview .image img{width:100%}.splash{padding-top:8em}.splash .logo{width:100px}.splash h1{font-size:2em}#banner{margin-bottom:2em;text-align:center}}.card-horizontal{display:flex;flex:1 1 auto}.list{margin:0 0 15px;padding:0;counter-reset:li;list-style:none}.list li{margin-bottom:5px;background:#222;overflow:hidden}.list.aside li a{background:#222}.list li a:before{content:counter(li);counter-increment:li;font-size:11px;position:absolute;left:0;top:0;background:#555;line-height:26px;width:26px;text-align:center;color:#fff}.list li a{display:block;position:relative;line-height:26px;padding:0 12px 0 35px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}h1{font-size:2rem}h2{font-size:1.2rem}.square-avatar{max-width:100%;width:100%;height:100%;display:block;padding-top:100%;background-position-y:center;background-position-x:center;background-repeat:no-repeat;background-size:cover;margin:0 auto;top:0;left:0;right:0;bottom:0}.square-avatar i{position:absolute;left:40%;top:35%;width:100%;font-size:3em;color:#fff;opacity:1;cursor:pointer;border-radius:50%}.h5,h5{font-size:1.1rem}
+	</style>
+
+<title>Cabbage Soup</title>
+</head>
+<body>
+	<div class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+							<a href="index.html" class="navbar-brand">VideoKEN</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+									<ul class="navbar-nav mr-auto">
+
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-a.html">A</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-b.html">B</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-c.html">C</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-d.html">D</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-e.html">E</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-f.html">F</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-g.html">G</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-h.html">H</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-i.html">I</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-j.html">J</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-k.html">K</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-l.html">L</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-m.html">M</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-n.html">N</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-o.html">O</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-p.html">P</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-q.html">Q</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-r.html">R</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-s.html">S</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-t.html">T</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-u.html">U</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-v.html">V</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-w.html">W</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-x.html">X</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-y.html">Y</a>
+						</li>
+												<li class="nav-item">
+							<a class="nav-link" href="./pages-z.html">Z</a>
+						</li>
+						
+					</ul>
+												<form class="form-inline my-2 my-lg-0 ml-auto" method="post" action="./">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" name="q">
+					<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+				</form>
+							</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row header">
+			<div class="col-sm-12 text-center">
+
+				<div class="text-center mt-3"><img class="img-fluid" src="https://placehold.co/728x90?text=Responsive+Ad"></div>								
+			</div>
+		</div>
+		<div class="row content justify-content-center">
+			<div class="col-md-12">
+				<div class="row">
+						<div class="col-md-8">
+	
+		<div class="bg-light pt-3 pl-3 pr-3 pb-1 mt-3">
+		<h1>Cabbage Soup</h1>
+					<p>
+				Watch &amp; download cabbage soup MP4 and MP3 now.
+				You can download free mp3 or MP4 as a separate song, or as video and download a music collection from any artist, which of course will save you a lot of time.
+			</p>
+				</div>
+		
+		<div class="row justify-content-center">
+			<div class="col-md-12">
+				
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/7tMX5zrgnj4/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">How To Make Cabbage Soup Recipes Allrecipes Com</h5>
+										<p>Get the top-rated recipe for healing cabbage soup at http://allrecipes.com/recipe/healing-cabbage-soup/detail.aspx. this video shows you how to make a healin...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=7tMX5zrgnj4" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-7tMX5zrgnj4" onclick="
+											(function(){
+												document.getElementById('iframe-7tMX5zrgnj4').setAttribute('src', 'https://download.videoken.cc/buttons/7tMX5zrgnj4')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-7tMX5zrgnj4">
+							<div class="bg-light">
+								<iframe id="iframe-7tMX5zrgnj4" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/GD0adU9YjWw/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Cabbage Soup Recipe Vegetable With Diet</h5>
+										<p>Full recipe: https://hebbarskitchen.com/cabbage-soup-recipe/ music: http://www.hooksounds.com/</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=GD0adU9YjWw" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-GD0adU9YjWw" onclick="
+											(function(){
+												document.getElementById('iframe-GD0adU9YjWw').setAttribute('src', 'https://download.videoken.cc/buttons/GD0adU9YjWw')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-GD0adU9YjWw">
+							<div class="bg-light">
+								<iframe id="iframe-GD0adU9YjWw" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/E9zBUddCyQQ/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Italian Grandma Makes Hearty Cabbage Soup</h5>
+										<p>Hearty cabbage soup: 1 onion, chopped 3 cloves garlic, minced cup carrot, 1-2 celery, 2 fresh plum tomatoes, potatoes, cubed ...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=E9zBUddCyQQ" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-E9zBUddCyQQ" onclick="
+											(function(){
+												document.getElementById('iframe-E9zBUddCyQQ').setAttribute('src', 'https://download.videoken.cc/buttons/E9zBUddCyQQ')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-E9zBUddCyQQ">
+							<div class="bg-light">
+								<iframe id="iframe-E9zBUddCyQQ" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/HvnWCXJs1AE/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Original Cabbage Soup Recipe For Diet Dietplan 101 Com</h5>
+										<p>This is the original recipe for so-called fat-burning cabbage soup 7-day diet plan, yields 1 large (11-in/28-cm) sauce pot of soup, ...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=HvnWCXJs1AE" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-HvnWCXJs1AE" onclick="
+											(function(){
+												document.getElementById('iframe-HvnWCXJs1AE').setAttribute('src', 'https://download.videoken.cc/buttons/HvnWCXJs1AE')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-HvnWCXJs1AE">
+							<div class="bg-light">
+								<iframe id="iframe-HvnWCXJs1AE" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/CIPpbpO0sg0/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Ground Beef And Cabbage Soup Recipe</h5>
+										<p>This is a great quick ground beef and cabbage soup (hamburger soup), that doesn&#039;t require long slow cook. serves: 4 to 6 ingredients: 1lb (500 g) l...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=CIPpbpO0sg0" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-CIPpbpO0sg0" onclick="
+											(function(){
+												document.getElementById('iframe-CIPpbpO0sg0').setAttribute('src', 'https://download.videoken.cc/buttons/CIPpbpO0sg0')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-CIPpbpO0sg0">
+							<div class="bg-light">
+								<iframe id="iframe-CIPpbpO0sg0" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/t3on9E8d3A8/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Live It Detox Cabbage Soup</h5>
+										<p>Here’s a vegetarian detox soup that’s savory and filling. cabbage, carrots tomatoes are made even more delicious with the help of garlic, oregano sea...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=t3on9E8d3A8" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-t3on9E8d3A8" onclick="
+											(function(){
+												document.getElementById('iframe-t3on9E8d3A8').setAttribute('src', 'https://download.videoken.cc/buttons/t3on9E8d3A8')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-t3on9E8d3A8">
+							<div class="bg-light">
+								<iframe id="iframe-t3on9E8d3A8" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+									<div class="row mt-3">
+						<div class="col-md-12">
+							<div class=" bg-light p-3">
+								<h2>This is a great quick ground beef and cabbage soup (hamburger soup),
+that doesn&#039;t require long slow cook.</h2>
+								<p>Cabbage,
+carrots tomatoes are made even more delicious with the help of garlic,
+oregano sea. Perfect for the cold weather. 5 tbsp (709g)
+of butter 1 medium s.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-3">
+												<div class="col-md-4">
+							<img src="https://i.ytimg.com/vi/kbDjjS6H9cM/mqdefault.jpg" alt="Join my online french cooking classes:
+https://learn.thefrenchcookingacademy.com/p/get-started-with-french-cooking
+the is a classic version of cab..." class="img-fluid">
+						</div>
+												<div class="col-md-4">
+							<img src="https://i.ytimg.com/vi/_EYhwrUjkz4/mqdefault.jpg" alt="This cabbage soup recipe is all kinds of comforting, plus it&#039;s super
+easy to make and full amazing flavors. :) cabbage, sausage &amp; potato
+recipe: http..." class="img-fluid">
+						</div>
+												<div class="col-md-4">
+							<img src="https://i.ytimg.com/vi/HvnWCXJs1AE/mqdefault.jpg" alt="This is the original recipe for so-called fat-burning cabbage soup
+7-day diet plan, yields 1 large (11-in/28-cm) sauce pot of soup, ..." class="img-fluid">
+						</div>
+											</div>
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/_EYhwrUjkz4/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Cabbage Sausage And Potato Soup</h5>
+										<p>This cabbage soup recipe is all kinds of comforting, plus it&#039;s super easy to make and full amazing flavors. :) cabbage, sausage &amp; potato recipe: http...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=_EYhwrUjkz4" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-_EYhwrUjkz4" onclick="
+											(function(){
+												document.getElementById('iframe-_EYhwrUjkz4').setAttribute('src', 'https://download.videoken.cc/buttons/_EYhwrUjkz4')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-_EYhwrUjkz4">
+							<div class="bg-light">
+								<iframe id="iframe-_EYhwrUjkz4" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/PsV_WHGQTtQ/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Cabbage Soup In 10 Mins Veg By Yes I Can Cook Cabbagesoup Vegsoup Dietsoup</h5>
+										<p>Subscribe my channel for daily yummy recipes :) music credit goes to #wondersharefilmora ingredients water 4-5 glass cabbage 1/2 head capsicum 1 carrot sal...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=PsV_WHGQTtQ" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-PsV_WHGQTtQ" onclick="
+											(function(){
+												document.getElementById('iframe-PsV_WHGQTtQ').setAttribute('src', 'https://download.videoken.cc/buttons/PsV_WHGQTtQ')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-PsV_WHGQTtQ">
+							<div class="bg-light">
+								<iframe id="iframe-PsV_WHGQTtQ" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/kbDjjS6H9cM/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">Soupe Aux Choux Cabbage And Pork Soup Easy Healthy French For Winter</h5>
+										<p>Join my online french cooking classes: https://learn.thefrenchcookingacademy.com/p/get-started-with-french-cooking the is a classic version of cab...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=kbDjjS6H9cM" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-kbDjjS6H9cM" onclick="
+											(function(){
+												document.getElementById('iframe-kbDjjS6H9cM').setAttribute('src', 'https://download.videoken.cc/buttons/kbDjjS6H9cM')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-kbDjjS6H9cM">
+							<div class="bg-light">
+								<iframe id="iframe-kbDjjS6H9cM" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+								
+				<div class="row mt-3 m-0">
+
+					<div class="col-md-12 bg-light pl-0">
+						<div class="mb-0">
+							<div class="row no-gutters">
+								<div class="col-md-2 col-4">
+									<div class="square-avatar" style="background-image: url('https://i.ytimg.com/vi/zKladcYwKF4/mqdefault.jpg');">
+										<i class="fa fa-play"></i>
+									</div>
+								</div>
+								<div class="col-md-10 col-8">
+									<div class="pt-3 pl-3">
+										<h5 class="card-title">How To Make Skyrim Apple Cabbage Stew</h5>
+										<p>Perfect for the cold weather! enjoy! :] music: vindsvept https://www./user/vindsvept full recipe: ingredients: 5 tbsp (70.9g) of butter 1 medium s...</p>
+										<p class="card-text text-muted">
+																					</p>
+										<p>
+											<a href="https://www.youtube.com/watch?v=zKladcYwKF4" class="btn btn-sm btn-outline-success" data-lity><i class="fa fa-play"></i> Play</a>
+											<a data-toggle="collapse" href="#collapse-zKladcYwKF4" onclick="
+											(function(){
+												document.getElementById('iframe-zKladcYwKF4').setAttribute('src', 'https://download.videoken.cc/buttons/zKladcYwKF4')
+											})();
+											" class="btn btn-sm btn-outline-success"><i class="fa fa-download"></i> Download</a>
+										</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="collapse" id="collapse-zKladcYwKF4">
+							<div class="bg-light">
+								<iframe id="iframe-zKladcYwKF4" class="button-api-frame" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none; height: 70px !important;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+											</div>
+
+		</div>
+		<div class="row mt-3">
+			<div class="col-md-12">
+				<div class=" bg-light p-3">
+					<p>Join my online french cooking classes. This
+video shows you how to make a healin. This is the original recipe for socalled fatburning cabbage soup
+7day diet plan, yields 1 large (11in/28cm) sauce pot of soup,.</p>
+					<p>Here’s a vegetarian detox soup that’s savory and filling. 4 to 6 ingredients. This cabbage soup recipe is all kinds of comforting, plus it&#039;s super
+easy to make and full amazing flavors.</p>
+					<p>1 onion, chopped 3 cloves garlic, minced cup
+carrot, 12 celery, 2 fresh plum tomatoes, potatoes, cubed. ) cabbage, sausage &amp; potato
+recipe. Subscribe my channel for daily yummy recipes ) music credit goes to
+#wondersharefilmora ingredients water 45 glass cabbage 1/2 head
+capsicum 1 carrot sal.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+
+		<h2 class="mt-3 mb-3"><i class="fa fa-star"></i> Advertisement</h2>
+		<img src="https://placehold.co/328x250?text=Large+Rectangle+Ad" alt="" style="width: 100%;">
+
+		<h2 class="mt-3 mb-3"><i class="fa fa-star"></i> You Might Like</h2>
+			<ol class="list aside top-lateral">
+															<li><a href="./cabbage-soup.html">Cabbage Soup</a></li>
+																				<li><a href="./cabbage-soup-recipe.html">Cabbage Soup Recipe</a></li>
+																				<li><a href="./cabbage-soup-diet.html">Cabbage Soup Diet</a></li>
+																				<li><a href="./cabbage-soup-diet-recipe.html">Cabbage Soup Diet Recipe</a></li>
+																				<li><a href="./cabbage-soup-diet-results.html">Cabbage Soup Diet Results</a></li>
+																				<li><a href="./cabbage-soup-keto.html">Cabbage Soup Keto</a></li>
+																				<li><a href="./cabbage-soup-weight-loss.html">Cabbage Soup Weight Loss</a></li>
+																				<li><a href="./cabbage-soup-vegan.html">Cabbage Soup Vegan</a></li>
+																				<li><a href="./cabbage-soup-chinese.html">Cabbage Soup Chinese</a></li>
+																				<li><a href="./cabbage-soup-diet-review.html">Cabbage Soup Diet Review</a></li>
+													
+	        </ol>
+
+	    <h2 class="mt-3"><i class="fa fa-star"></i> More</h2>
+									<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup.html">
+								<img src="https://i.ytimg.com/vi/kbDjjS6H9cM/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-recipe.html">
+								<img src="https://i.ytimg.com/vi/7tMX5zrgnj4/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Recipe</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-diet.html">
+								<img src="https://i.ytimg.com/vi/eQAKINsWfwE/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Diet</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-diet-recipe.html">
+								<img src="https://i.ytimg.com/vi/ZbZQ1YPVHKs/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Diet Recipe</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-diet-results.html">
+								<img src="https://i.ytimg.com/vi/UgHUSTVeCNw/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Diet Results</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-keto.html">
+								<img src="https://i.ytimg.com/vi/QWgo4yAELRo/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Keto</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-weight-loss.html">
+								<img src="https://i.ytimg.com/vi/DAnc3PM9SMA/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Weight Loss</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-vegan.html">
+								<img src="https://i.ytimg.com/vi/rVM059KMthU/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Vegan</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-chinese.html">
+								<img src="https://i.ytimg.com/vi/qgQuxJ2bTo8/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Chinese</h5>
+						</div>
+					</div>
+				</div>
+												<div class="row mt-3">
+					<div class="col-md-12">
+						<div class="text-center bg-light">
+							<a href="./cabbage-soup-diet-review.html">
+								<img src="https://i.ytimg.com/vi/H68zrTeWrWI/mqdefault.jpg" alt="" class="img-fluid" style="width: 100%;">
+							</a>
+							<h5 class="card-title p-3">Cabbage Soup Diet Review</h5>
+						</div>
+					</div>
+				</div>
+					
+	</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="row border-top border-light">
+				<div class="col-lg-12 mt-3">
+
+					<ul class="list-unstyled">
+						<li class="float-lg-right"><a href="#top">Back to top</a></li>
+												<li><a href="./pages-dmca.html">Dmca</a></li>
+												<li><a href="./pages-contact.html">Contact</a></li>
+												<li><a href="./pages-privacy-policy.html">Privacy Policy</a></li>
+												<li><a href="./pages-copyright.html">Copyright</a></li>
+						
+					</ul>
+				</div>
+			</div>
+
+		</footer>
+	</div>
+	<!-- <style>
+	#topbar{  background:#ddd;  width:100%;  text-align:center;  color:#333;  padding:5px;  overflow:hidden;  height:89px;  z-index:1000;  font-family:Georgia;  font-size:17px;  line-height:30px;  position:fixed;  bottom:0;  left:0;  border-top:3px solid #26ADE4;  box-shadow:0 1px 5px rgba(0,0,0,.7);
+	}
+
+	#topbar a{-webkit-box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px; background:#26ADE4;  border-bottom-left-radius:4px;  border-bottom-right-radius:4px;  border-top-left-radius:4px;  border-top-right-radius:4px;  border:none;  box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px;  color:white;  cursor:pointer;  font-size:0.95em;  margin:0px 0px 0px 7px;  outline:none;  padding:5px 13px 5px;  position:relative;  text-decoration:initial;
+		font-size:19px;
+	}
+
+	#topbar a:hover{  cursor:pointer;background:#444}
+
+	#topbar a:active{  top:1px}
+
+</style>
+
+<div id='topbar'>
+	<p>Write an awesome ad copy here. 
+	  	<br>
+		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
+	</p>
+</div> -->	<script type="text/javascript">
+	atOptions = {
+		'key' : '03f101d40aa838f0b5ad42f2688db0fa',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://g9qnk89pd5ic.com/03f101d40aa838f0b5ad42f2688db0fa/invoke.js"></scr' + 'ipt>');
+</script>
+<script type='text/javascript' src='//g9qnk89pd5ic.com/23/45/0d/23450deae6530f363965491ce0bad358.js'></script>
+<script type='text/javascript' src='//g9qnk89pd5ic.com/d1/29/df/d129df3c5ab6aa56295cc8f84fe4dd85.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4432036,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4432036&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.0/lity.min.js" integrity="sha256-rr6XKdaA3InL/R1iKt/B+un4oU/c23+5Rxubx7qO5ts=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
